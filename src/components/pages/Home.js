@@ -25,7 +25,7 @@ const dataContext = useContext(DataContext)
 
 return (
     <div className="home">
-   <Link to={"/game/battle-the-horde"} > <button onClick={(e)=>{dataContext.setCardList(battleTheHorde)}}>Battle the Horde</button></Link>
+   <Link to={"/game/battle-the-horde"} > <button onClick={(e)=>{dataContext.setCardList(battleTheHorde)}}>Battle the Hordes</button></Link>
    <Link to={"/game/defeat-a-god"} ><button onClick={()=>{dataContext.setCardList(defeatAGod)}}>Defeat a God</button></Link>
     <Link to={"/game/face-the-hydra"} ><button onClick={()=>{dataContext.setCardList(faceTheHydra)}}>Face the Hydra</button></Link>
     </div>
