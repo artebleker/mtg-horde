@@ -1,0 +1,7 @@
+.deck{
+    background-color: rgb(30,20,20);
+    border-radius: 15px;
+    width: calc(63px*1.5);
+    height: calc(88px*1.5);
+    
+}

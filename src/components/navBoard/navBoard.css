@@ -1,0 +1,8 @@
+.nav-board{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 20px;
+    padding: 10px;
+    background-color: grey;
+}

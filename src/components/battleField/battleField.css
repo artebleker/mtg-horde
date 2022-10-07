@@ -1,0 +1,17 @@
+.battle-field {
+  border: solid 3px black;
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  height: calc(88px * 4.5);
+}
+.battle-field__creatures {
+  background-color: blueviolet;
+  grid-column-start: 1;
+  grid-column-end: 10;
+}
+
+.battle-field__artifacts-enchantments {
+  background-color: blue;
+  grid-column-start: 10;
+  grid-column-end: 12;
+}

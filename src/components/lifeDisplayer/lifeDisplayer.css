@@ -1,0 +1,10 @@
+.life-displayer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    gap: 10px;
+    background-color: darkgrey;
+    width: max-content;
+}

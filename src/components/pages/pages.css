@@ -1,0 +1,47 @@
+.home{
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  gap: 30px;
+}
+.home button{
+    text-align: center;
+    background-color: darkgreen;
+    border-radius: 10px;
+    padding: 20px;
+    cursor: pointer;
+    color: white;
+    width: 200px;
+}
+.home button a{
+    text-decoration: none;
+}
+.game-page{
+    width: 100vw;
+    height: 100vh;
+    background: lightblue;
+    display: flex;
+    flex-direction: column;
+
+}
+.navbar-life-displayer{
+display: grid;
+place-content: center;
+}
+
+
+.board-game{
+    display: grid;
+    place-content: center;
+}
+.dice-coin{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+    margin: 20px;
+    position: absolute;
+    bottom:10px;
+    right: 10px;
+}
